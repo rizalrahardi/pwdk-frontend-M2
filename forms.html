@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>forms</title>
+		<style>
+			div {
+				color: red !important;
+			}
+		</style>
+	</head>
+
+	<body>
+		<h1>form 1</h1>
+		<form action="" method="post">
+			<input type="text" placeholder="name" />
+			<input type="password" required placeholder="password" />
+			<br />
+			<input type="checkbox" value="chek1" />
+			<label for="chek1">checklist 1</label>
+			<input type="checkbox" value="check2" />
+			<label for="check2">checklist 2</label>
+			<br />
+			<input type="radio" id="ganjar" name="capres" />
+			<label for="ganjar">ganjar</label>
+			<input type="radio" id="prabowo" name="capres" />
+			<label for="prabowo">prabowo</label>
+			<input type="radio" id="anies" name="capres" />
+			<label for="anies">anies</label>
+			<br />
+			<input type="number" min="1" max="10" />
+			<br />
+			<input type="submit" value="OK" />
+			<br />
+			<textarea name="" id="" cols="30" rows="10" placeholder="lorem">
+Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nisi consequatur laborum culpa possimus ullam nobis quam praesentium ipsum, deleniti dolore voluptatibus dolor neque aliquam voluptas explicabo eos, amet excepturi dignissimos.</textarea
+			>
+		</form>
+		<hr />
+		<h1>form 2 with label</h1>
+		<form action="" method="post">
+			<p>
+				<label for="user">username</label>
+				<input type="text" name="user" />
+			</p>
+			<p>
+				<label for="pass">password</label>
+				<input type="password" name="pass" />
+			</p>
+			<p>apa makanan favoritmu</p>
+			<select name="food" id="">
+				<option value="">endog</option>
+				<option value="">cireng</option>
+				<option value="">rengginang</option>
+			</select>
+			<p>apa warna favoritmu</p>
+			<select name="food" id="">
+				<option value="">ijo</option>
+				<option value="">abang</option>
+				<option value="">biru</option>
+			</select>
+		</form>
+		<hr />
+		<h1>form with fieldset and legend</h1>
+		<form action="" method="post">
+			<fieldset>
+				<legend>Data diri</legend>
+				<p>
+					<label for="nama">Nama :</label>
+					<input type="text" name="nama" />
+				</p>
+				<p>
+					<label for="usia">usia :</label>
+					<input type="number" name="usia" />
+				</p>
+			</fieldset>
+		</form>
+
+		<div style="color: blue" class="satu">
+			<p>div1</p>
+		</div>
+		<div style="color: red" class="dua">
+			<p>div2</p>
+		</div>
+		<div style="color: aqua" class="tiga">
+			<p>div3</p>
+		</div>
+	</body>
+</html>

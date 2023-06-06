@@ -1,0 +1,66 @@
+/* @import url("https://fonts.googleapis.com/css2?family=Alkatra&family=Delicious+Handrawn&family=Noto+Sans+TC:wght@100;300&display=swap");
+
+* {
+	font-family: "Alkatra", cursive;
+	font-family: "Delicious Handrawn", cursive;
+	font-family: "Noto Sans TC", sans-serif;
+} */
+body {
+	background-color: yellow;
+	/* background: linear-gradient(blue, yellow); */
+	/* background: linear-gradient(90deg, blue, yellow); */
+	background-image: url(img/capressss.jpeg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+p {
+	color: blue;
+}
+
+.vehicle .mobil {
+	color: red;
+}
+
+.vehicle #avanza {
+	color: violet;
+}
+
+a {
+	color: blue;
+}
+
+.random p {
+	font-family: "Impact", Arial;
+	font-style: italic;
+	text-transform: uppercase;
+	text-decoration: line-through;
+	text-shadow: -4px 4px 4px red;
+	line-height: 50%;
+	letter-spacing: 2px;
+	word-spacing: 4px;
+	text-align: center;
+	text-indent: 2rem;
+}
+
+.random .margin {
+	background-color: aliceblue;
+	margin: 50px 70px;
+	padding: 50px;
+	border-radius: 20px;
+}
+
+.random #content {
+	color: white;
+	background-color: rgb(116, 228, 248);
+	padding: 25px;
+	border: 10px ridge yellow;
+	border-radius: 50px;
+	box-shadow: -0.5rem 0.5rem 1rem gray;
+	font-size: larger;
+}
+
+.random #content:hover {
+	color: red;
+	font-size: small;
+	text-transform: lowercase;
+}
