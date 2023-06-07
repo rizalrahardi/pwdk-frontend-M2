@@ -1,6 +1,12 @@
 body {
-	background-color: bisque;
+	background: rgb(63, 251, 123);
+	background: radial-gradient(
+		circle,
+		rgba(63, 251, 123, 1) 0%,
+		rgba(251, 252, 70, 1) 100%
+	);
 }
+
 .flex {
 	display: flex;
 	flex-wrap: wrap;
@@ -12,7 +18,7 @@ body {
 	font-weight: bold;
 	color: aliceblue;
 	width: 80%;
-	border: 3px solid orange;
+	border: 10px dotted orange;
 	padding: 10px;
 	border-radius: 30px;
 	margin: 30px auto;
@@ -48,7 +54,6 @@ body {
 .sidebar {
 	background-color: brown;
 	padding: 100px;
-	align-items: stretch;
 	width: 40%;
 }
 
